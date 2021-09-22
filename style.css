@@ -1,0 +1,512 @@
+/* Navbar */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.home {
+    background: #f9f9f9;
+}
+
+.logo {
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.navbar {
+    background: #33414F;
+    height: 64px;
+    position: relative;
+    width: 100%;
+}
+
+.navbar-links {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: flex-end;
+    width: 100%;
+    top: 0;
+    height: 64px;
+    align-items: center;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 28px;
+    font-size: 18px;
+    
+}
+
+img{
+    width: 105px;
+    height: 27px;
+}
+
+/*Intro*/
+
+.header {
+    background-image: url(https://www.zoomcar.com/build/img/intro_bg.59b15d84c75cf310e76cc40155b90dc6.jpg);
+    height: 520px;
+    background-size: cover;
+}
+
+.intro{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    color: #fff;
+
+}
+.intro h1 {
+    font-size: 44px;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+
+.intro h2 {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.intro a {
+ background-color: #fff;
+ width: 540px;
+ height: 60px;
+ border-radius: 5px;
+ text-decoration: none;
+ color: #323a44;
+ font-size: 18px;
+ text-align: left;
+ line-height: 60px;
+ text-indent: 20px;
+ margin-top: 15px
+
+}
+
+.intro i {
+    margin-left: 220px;
+    font-size: 20px;
+}
+
+/*Advantage section*/
+.advantage {
+    background: #EEEEEE;
+    height: 520px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantage h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #666;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+
+.advantage p{
+    font-size: 14px;
+    color: #323A44;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+}
+
+.items {
+    display: flex;
+    width: 830px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 343px;
+}
+
+
+.items div {
+    background-color: #fff;
+    display: flex;
+    width: 270px;
+    height: 161.8px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.items h3 {
+    color: #70ad4d;
+    font-weight: 400;
+}
+
+.items p {
+    font-size: 12px;
+    padding: 10px;
+}
+
+.box-1 {
+    background-image: url(/build/img/advantages_sprite.ae2a334….svg);
+    width: 49px;
+    background-position: 0 7px;
+}
+
+.supermiler {
+    text-align: center;
+    margin-bottom: 40px;
+    height: 555px;
+}
+
+.supermiler-bg {
+    background-image: url(https://www.zoomcar.com/build/img/supermilers_bg.ce8bf185500c5dd96a4c1034b89e6e0c.jpg);
+    color: #fff;
+    height: 350px;
+    background-size: cover;
+    background-position-y: 75%;
+    text-align: center;
+}
+
+.supermiler-opacity{
+    width: 100%;
+    height: 350px;
+    background-color: rgba(0,0,0,.7);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.supermiler-logo {
+    background-image: url(https://www.zoomcar.com/build/img/supermiler_logo.03d80d443b6753b6827f98ccf6ab30da.svg);
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 100px;
+    margin-top: 40px;
+    background-size: cover;
+    background-position: 20px 0;
+    margin-bottom: 16px;
+}
+
+.supermiler h2 {
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.supermiler p {
+    font-size: 14px;
+    color: #fff;
+}
+
+.dash {
+    color: #9b9b9b;
+    font-size: 14px;
+}
+
+.dash:before,
+.dash:after {
+    background-color: #9b9b9b;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+   }
+.dash:before {
+    right: 0.5em;
+    margin-left: -50%;
+   }
+.dash:after {
+    left: 0.5em;
+    margin-right: -50%;
+   }
+
+.z-point {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    display: flex;
+    width: 195px;
+    height: 130px;
+    background-color: #ffff;
+    margin-top: -65px;
+    border-radius: 2px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 10px 10px -10px #f1f1f1;
+    
+}
+
+.box-logo {
+    background-image: url(https://www.zoomcar.com/build/img/z_coins.79da880b0c097267c2580ec6c91fc75f.svg);
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 65px;
+    background-position: center;
+    background-size: contain;
+    margin-top: 10px;
+
+}
+
+.box h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 2px;
+    font-weight: 600;
+    color:#323a44;
+}
+
+.z-point p {
+    color: #323A44;
+    width: 195px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    width: 208px;
+    height: 41.2px;
+    padding: 10px 60px;
+    text-decoration: none;
+    border: 1px solid #666;
+    font-size: 14px;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+}
+
+.cars-bg {
+    background-image: url(https://www.zoomcar.com/build/img/car_bg.9876fe054a2220e5a5cc8c5746991926.jpg);
+    width: 100%;
+    height: 595px;
+}
+
+.cars-bg h2 {
+    font-size: 22px;
+    color: #ffff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.cars-bg p {
+    font-size: 18px;
+    color: #ffff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+
+.figo {
+    margin-top: 100px;;
+    display: flex;
+    height: 270px;
+    width: 100%;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+}
+
+.row {
+    display: flex;
+    width: 80%;
+    height: 250px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.row img {
+    width: 323px;
+    height: 200px;
+    margin-top: auto;
+}
+
+.row h3 {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #ffff;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.row .price {
+    font-size: 24px;
+}
+
+.row .available-cars {
+    font-size: 14px;
+    margin-top: 14px;
+    text-align: left;
+}
+
+.figo .details {
+    width: 500px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.figo .description {
+    font-size: 30px;
+    color: #ffff;
+    align-self: center;
+
+}
+
+
+
+.how-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-color: #f9f9f9;
+}
+
+.how-works h2 {
+    font-size: 24px;
+    color: #666;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.how-works p {
+    font-size: 14px;
+    color: #323a44;
+    text-align: center;
+}
+
+.box-wrap {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    width: 80%;
+}
+
+.how-works .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 200px;
+    background-color: #ffff;
+    box-shadow: 0 12px 22px 2px rgb(0 0 0 / 10%);
+    border: 1px solid #eee;
+    padding: 0;
+    margin: 0;
+    border: solid 1px #eee;
+    border-radius: 5px;
+}
+
+.box img {
+    width: 82px;
+    height: 36px;
+}
+.lock img{
+    width: 24px;
+    height: 35px;
+}
+
+.box h4 {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #323A44;
+    margin-bottom: 0;
+}
+.box p {
+    padding: 7px;
+    color: #323A44;
+    font-size: 14px;
+}
+
+.how-works .btn {
+    display: flex;
+    width: 176px;
+    height: 41.2px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.app {
+    height: 602px;
+    width: 100%;
+    background-image: url(https://www.zoomcar.com/build/img/app_bg.daa074b25be54e8df493f629f6a10f61.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app .wrap {
+    height: 164px;
+    width: 1063px;
+    
+}
+
+.app h2 {
+    font-size: 24px;
+    color: #eeee;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.app p {
+    font-size: 18px;
+    color: #eeee;
+    height: 49px;
+    width: 513px;
+}
+
+.google-play {
+    background-image: url(https://www.zoomcar.com/build/img/google_play.238b318d8ac107d46226f4c40f3aae9b.png);
+    width: 140px;
+    height: 42px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.app-store {
+    background-image: url(https://www.zoomcar.com/build/img/apple_store.958abff9e074193ff35f2aa40e13cb98.png);
+    width: 140px;
+    height: 42px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
